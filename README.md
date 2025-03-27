@@ -1,6 +1,3 @@
-Seja Bem Vindo
-Para reproduzir o projeto em sua máquina
-
 Clone o repositório:
 git clone https://github.com/marciormta/northwind-streamlit.git
 cd northwind-streamlit
