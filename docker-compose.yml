@@ -1,0 +1,15 @@
+# docker-compose.yml
+# Comments are provided throughout this file to help you get started.
+# If you need more help, visit the Docker Compose reference guide at
+# https://docs.docker.com/go/compose-spec-reference/
+
+services:
+  server:
+    build:
+      context: .
+    ports:
+      # Opcional para scripts, mas não atrapalha
+      - "8000:8000"
+    env_file:
+      # Lê as variáveis do arquivo .env na raiz do projeto
+      - .env
